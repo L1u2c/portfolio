@@ -46,7 +46,11 @@
                 </a>
             </div>
         </section>
-        <img class="apresentacao__imagem" src="./assets/imagem.png" alt="Foto da Joana Santos programando">
+        <picture>
+            <source media="(max-width: 750px)" srcset="./assets/imagem.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="./assets/imagem.png" type="image/png">
+            <img class="apresentacao__imagem" src="./assets/imagem.png" alt="Foto da Joana Santos programando">
+        </picture>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Alura.</p>
